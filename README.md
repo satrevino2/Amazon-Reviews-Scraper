@@ -28,6 +28,6 @@ pip install requests
 ### Running
 1. Open your terminal.
 
-2. Change directory into the folder the python code is located in.
+2. Change directory into the folder the amazon_scraper.py code is located in.
 
 3. Finally, enter in your terminal: ```python3 amazon_scraper.py```
