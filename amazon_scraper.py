@@ -74,9 +74,12 @@ reviews = []
 # "Range" for US Amazon below
 for i in range(1,2):
     # United States O.R.S Amazon reviews
-    url = 'https://www.amazon.com/ORS-Rehydration-Flavour-Soluble-Tablets/product-reviews/B0098YY6BI/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews&pageNumber=' + str(i)
+    #url = 'https://www.amazon.com/ORS-Rehydration-Flavour-Soluble-Tablets/product-reviews/B0098YY6BI/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews&pageNumber=' + str(i)
     # United Kingdom O.R.S Amazon reviews
     #url = 'https://www.amazon.co.uk/R-S-Hydration-Electrolyte-Tablets-Blackcurrant/product-reviews/B00NGTCKWS/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews&pageNumber=' + str(i)
+    # United Kingdom Wayk Amazon reviews
+    url = 'https://www.amazon.co.uk/WAYK-Energy-Alertness-Flavoured-Tablets/product-reviews/B06XW4GL94/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews&pageNumber=' + str(i)
+
     scrapy(url)
 
 # Clean up and close browser once task is completed
